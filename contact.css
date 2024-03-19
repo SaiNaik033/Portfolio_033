@@ -1,0 +1,88 @@
+.container{
+    margin: auto;
+    height: 80vh;
+    width: 40vw;
+    margin-top: 50px;
+}
+h1{
+    color: white;
+    margin-left: 680px;
+    
+}
+body{
+    background-color:  aliceblue;
+}
+.row1,.row2{
+    
+    height: 60px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#me{
+    color: blueviolet;
+}
+h1{
+    color: blueviolet   ;
+}
+.row3{
+    
+    
+    height: 350px;
+    width: 600px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.row3 textarea{
+    border: solid black 2px;
+    border-radius: 10px;
+    height:330px ;
+    width: 580px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+    font-size: large;
+    box-shadow: 5px 3px 3px rgb(120, 101, 137) inset;
+    
+
+    
+}
+.submit{
+    height: 60px;
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit button{
+    font-family: "Exo 2", sans-serif;
+    border: solid black 2px;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    
+}
+.submit button:hover{
+    border: solid blueviolet 3px;
+    height: 39px;
+    width: 149px;
+    font-size: medium;
+    box-shadow: 5px 3px 3px rgb(120, 101, 137) inset;
+}
+
+.row1 input,.row2 input{
+    border: solid black 2px;
+    border-radius: 10px;
+    height:40px ;
+    width: 280px;
+    
+    color: black;
+    font-size: medium;
+    box-shadow: 5px 3px 3px rgb(120, 101, 137) inset;
+}

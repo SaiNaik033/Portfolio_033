@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    color: rgb(50, 136, 211);
+}
+body{
+    background-color: aliceblue;
+    margin-left: -1px;
+}
+.right ul li{
+    list-style: none;
+}
+.right ul li a{
+    color:rgb(50, 136, 211);
+    font-weight: bold;
+}
+h3{
+    color: rgb(50, 136, 211);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color:rgb(50, 136, 211); */
+    align-items: center;
+    font-size: large;
+    
+}
+.rightside{
+    margin-top: 80px;
+}
+#footer {
+    margin-top: 75px;
+    color: rgb(50, 136, 211);
+    text-align: center;
+    animation-name: copyright;
+    
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    margin: 0px 30px;
+    color: black;
+}
+header{
+    /* background-color: rgb(50, 136, 211); */
+    margin-top: -30px;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    margin-top: 30px;
+}
+img{
+    height: 60vh;
+    width: 30vw;
+}
+.leftside{
+    font-size: 40px;
+    font-family: "Kanit", sans-serif;
+    margin-top: 90px;
+}
+.name{
+    color: blueviolet;
+}
+.left{
+    font-family: "Exo 2", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.right ul li a:hover{
+    color: blueviolet;
+}
+.right ul li a {
+    font-weight: bold;
+}
+#element{
+    color: blueviolet;
+}
+h3{
+    
+    font-weight: bold;
+}
+h3:hover{
+    color: blueviolet;
+}
+
+.hirebutton button{
+    margin-top: 5px;
+    height: 45px;
+    width: 120px;
+    position: relative;
+    left: 280px;
+    bottom: 50px;
+    background-color: white;
+    color: blueviolet;
+    border: solid black 2px;
+    border-radius: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+   
+}
+.hirebutton button:hover{
+    height: 44.5px;
+    width: 119.5px;
+    border: solid blueviolet 5px;
+    
+}
+.icons i{
+    position: relative;
+    left: 265px;
+    margin: -10px 15px;
+}
+
+@keyframes opac {
+    0%{
+        opacity: 0.0;
+        height: 30vh;
+        width: 15vw;
+    }
+    
+    100%{
+        opacity: 1.0;
+        height: 60vh;
+        width: 30vw;
+    }
+}
+@keyframes copyright {
+    0%{
+        opacity: 0%;
+    }
+   
+   
+    80%{
+        opacity: 80%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.image  > img{
+    animation-name: opac;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+
+
+
+
+
